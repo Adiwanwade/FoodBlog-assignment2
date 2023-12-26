@@ -10,12 +10,12 @@
 </head>
 <header>
     <div class="logo">
-      <img src="images/logo.png" alt="Food Blog Logo">
+      <img src="Images/62e1154107d87_json_image_1658918209.webp" alt="Food Blog Logo">
     </div>
     <nav>
       <ul>
         <li><a href="{{route('home')}}">Food Blog</a></li>
-        <li><a href="#">Listings</a></li>
+        {{-- <li><a href="#">Listings Your Recipe</a></li> --}}
         <li><a href="{{route('home')}}">Blog</a></li>
         <li class="active"><a href="/Aboutus">About Us</a></li>
         @if (Route::has('login'))

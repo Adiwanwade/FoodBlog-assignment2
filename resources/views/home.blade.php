@@ -19,7 +19,7 @@
     <nav>
       <ul>
         <li><a href="#">Food Blog</a></li>
-        <li><a href="#">Listings</a></li>
+        {{-- <li><a href="#">Listings</a></li> --}}
         <li class="active"><a href="#">Blog</a></li>
         <li><a href="/Aboutus">About Us</a></li>
         @if (Route::has('login'))
