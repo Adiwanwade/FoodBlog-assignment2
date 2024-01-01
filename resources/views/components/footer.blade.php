@@ -61,52 +61,10 @@ background-size: cover;">
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;"></a>
-    <div class="elementor-element elementor-element-2378bc5e elementor-widget elementor-widget-heading" data-id="2378bc5e" data-element_type="widget" data-widget_type="heading.default">
-    <div class="elementor-widget-container">
-    <h2 class="elementor-heading-title elementor-size-default" style="color: #ffffff ;padding-bottom: 7px;border-bottom:solid">Subscribe To Our Newsletter</h2>		</div>
-    </div>
-    <div class="elementor-element elementor-element-327323d0 wpr-mailchimp-layout-hr elementor-widget elementor-widget-wpr-mailchimp" data-id="327323d0" data-element_type="widget" data-widget_type="wpr-mailchimp.default">
-    <div class="elementor-widget-container">
 
-    <form class="wpr-mailchimp-form" id="wpr-mailchimp-form-327323d0" method="POST" data-list-id="def" data-clear-fields="">
-    <!-- Form Header -->
-
-    <div class="wpr-mailchimp-fields">
-    <!-- Email Input -->
-    <div class="wpr-mailchimp-email">
-                        <input type="email" name="wpr_mailchimp_email" placeholder="sample@mail.com" required="required">
+<x-subscribe></x-subscribe>
     </div>
-
-    <!-- Extra Fields -->
-    <br>
-    <!-- Subscribe Button -->
-    <div class="wpr-mailchimp-subscribe">
-    <button type="submit" id="wpr-subscribe-327323d0" class="wpr-mailchimp-subscribe-btn" data-loading="Subscribing..." style="background-color: #ff9500;
-    color: #ffffff;
-    border-color: #E6E2E2;
-    transition-duration: 0.6s;
-    font-family: Raleway, Sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: -0.1px;
-    height: 30px;
-    line-height: 30px;
-    border-style: none;
-    border-radius: 0px 1px 1px 0px;">
-          Subscribe	</button>
-    </div>
-    </div>
-
-    <!-- Success/Error Message -->
-    <div class="wpr-mailchimp-message">
-    <span class="wpr-mailchimp-success-message" style="display: none">You have been successfully Subscribed!</span>
-    <span class="wpr-mailchimp-error-message" style="display: none">Ops! Something went wrong, please try again.</span>
-    </div>
-    </form>
-
-    </div>
-    </section>
-
+</section>
     <footer>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 

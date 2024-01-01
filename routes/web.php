@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SubscribeController;
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -103,3 +104,5 @@ Route::get('/admin/posts/{id}/edit', [
 Route::patch('/admin/posts/{id}/edit', [
     PostController::class, 'update'
 ])->middleware('auth')->name('admin-posts-edit');
+
+Route::post('/subscribe', [SubscribeController::class, 'subscribe'])->name('subscribe');
